@@ -1,0 +1,16 @@
+# 运行时数据
+data/
+
+# 智能体记忆（运行时生成）
+.claude/agent-memory/
+
+# Vim 交换文件
+*.swp
+*.swo
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Node
+node_modules/

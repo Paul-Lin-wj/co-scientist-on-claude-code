@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "academic-search": {
+      "command": "npx",
+      "args": ["-y", "paper-search-mcp"],
+      "env": {}
+    }
+  }
+}

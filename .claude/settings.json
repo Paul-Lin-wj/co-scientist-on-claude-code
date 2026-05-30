@@ -1,0 +1,51 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Agent",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/Linhy/mywork/co-scientist-claude/.claude/scripts/log-agent-call.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/Linhy/mywork/co-scientist-claude/.claude/scripts/log-agent-call.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/Linhy/mywork/co-scientist-claude/.claude/scripts/log-agent-call.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "WebSearch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/Linhy/mywork/co-scientist-claude/.claude/scripts/log-agent-call.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Workflow",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/Linhy/mywork/co-scientist-claude/.claude/scripts/log-agent-call.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
